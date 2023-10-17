@@ -13,8 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     background: rgb(172,145,59);
-    background: rgb(172,145,59);
-background: linear-gradient(100deg, rgba(172,145,59,1) 0%, rgba(221,192,83,1) 7%, rgba(201,42,42,1) 26%, rgba(208,86,27,1) 58%, rgba(245,120,26,1) 100%);
+    background: linear-gradient(100deg, rgba(172,145,59,1) 0%, rgba(221,192,83,1) 7%, rgba(201,42,42,1) 26%, rgba(208,86,27,1) 58%, rgba(245,120,26,1) 100%);
 }
 
 
