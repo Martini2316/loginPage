@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Logowanie</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="E-mail" required>
+                        <i class="uil uil-envelope-alt icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Hasło" required>
+                        <i class="uil uil-padlock icon"></i>
+                        <i class="uil uil-eye-slash showHidePass"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text" style="color: white;">Zapamiętaj mnie</label>
+                        </div>
+                        <a href="#" class="text">Odzyskaj hasło</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Zaloguj się!">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Nie masz konta?
+                        <a href="#" class="text signup-link">Zarejestruj się teraz!</a>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="form signup">
+                <span class="title">Rejestracja</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Imię i nazwisko" required>
+                        <i class="uil uil-user-circle"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="E-mail" required>
+                        <i class="uil uil-envelope-alt icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Hasło" required>
+                        <i class="uil uil-padlock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Powtórz hasło" required>
+                        <i class="uil uil-padlock icon"></i>
+                        <i class="uil uil-eye-slash showHidePass"></i>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Stwórz konto!">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Masz już konto?
+                        <a href="#" class="text login-link">Zaloguj się!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
